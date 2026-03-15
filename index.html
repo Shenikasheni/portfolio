@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shenika | Python Backend Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">Shenika</div>
+
+<nav id="nav-menu" >
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="menu-toggle" id="menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<div class="profile-container">
+<div class="profile-frame">
+<img src="profile.png">
+</div>
+</div>
+
+<h1>Hello, I'm <span>Shenika</span></h1>
+
+<p>Python Backend Developer | FastAPI | REST API Development</p>
+
+<div class="buttons">
+
+<a href="resume.pdf" download class="btn">Download CV</a>
+
+<a href="https://wa.me/917010523648" class="btn">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="https://github.com/Shenikasheni">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/shenika-s-69954a203/">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Motivated Python Developer with hands-on experience in backend development using
+Python and FastAPI. Skilled in building scalable REST APIs, implementing
+database models, and integrating backend services. Passionate about writing
+clean, efficient code and developing reliable web applications.
+</p>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="grid">
+
+<div class="card">Python</div>
+<div class="card">FastAPI</div>
+<div class="card">REST API Development</div>
+
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">Bootstrap</div>
+<div class="card">Tailwind CSS</div>
+<div class="card">Jinja2 Templates</div>
+
+<div class="card">SQL</div>
+<div class="card">SQLite</div>
+<div class="card">PostgreSQL</div>
+
+<div class="card">Git</div>
+<div class="card">GitHub</div>
+
+</div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="timeline">
+
+<div class="exp-card">
+
+<h3>NEXSOFTURE – Junior Python Developer</h3>
+<span>Oct 2025 - Present</span>
+
+<p>
+• Developed backend APIs using Python and FastAPI  
+• Implemented server-side rendering using Jinja templates  
+• Designed REST API endpoints for application modules  
+• Managed database migrations using Alembic
+</p>
+
+</div>
+
+<br>
+
+<div class="exp-card">
+
+<h3>CLOVION TECH SOLUTION – Junior Python Developer</h3>
+<span>Feb 2025 – Jul 2025</span>
+
+<p>
+• Developed frontend interfaces using HTML, CSS, and Bootstrap  
+• Integrated frontend components with backend APIs  
+• Implemented dynamic UI components
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="project-card">
+
+<h3>Food Delivery Application</h3>
+
+<p>
+Developed backend services using Python and FastAPI in a microservices architecture.
+Designed REST APIs for restaurant management, orders, and users.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Tips Management Application</h3>
+
+<p>
+Backend system to manage and distribute employee tips with APIs for tracking and reporting.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>E-Commerce Web Application</h3>
+
+<p>
+Developed backend APIs for product management, cart, and order processing using FastAPI.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="exp-card">
+
+<h3>Bachelor of Engineering – Computer Science and Engineering</h3>
+
+<p>
+University College of Engineering Nagercoil, Tamil Nadu
+</p>
+
+<span>2020 – 2024</span>
+
+<p>Percentage: 75%</p>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Let's build something amazing together.</p>
+
+<div class="contact-buttons">
+
+<a href="mailto:shenikas700@gmail.com" class="btn">Email</a>
+
+<a href="https://wa.me/917010523648" class="btn">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Shenika | Portfolio</p>
+</footer>
+
+
+<script>
+
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav-menu");
+const icon = toggle.querySelector("i");
+
+toggle.addEventListener("click", () => {
+
+nav.classList.toggle("active");
+
+if(nav.classList.contains("active")){
+icon.classList.replace("fa-bars","fa-xmark");
+}else{
+icon.classList.replace("fa-xmark","fa-bars");
+}
+
+});
+
+document.querySelectorAll("#nav-menu a").forEach(link => {
+link.addEventListener("click", () => {
+
+nav.classList.remove("active");
+icon.classList.replace("fa-xmark","fa-bars");
+
+});
+});
+
+</script>
+
+</body>
+</html>
